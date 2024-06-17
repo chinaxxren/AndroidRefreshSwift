@@ -36,7 +36,7 @@ class AndroidRefresh: UIControl {
     var colors: [UIColor] = [UIColor.red, UIColor.blue, UIColor.green]
     
     private var refreshStartY: CGFloat = -60
-    private lazy var refreshingY: CGFloat = NavigationBarHeightUtil.getCurrentNavigationBarHeight() + 10
+    lazy var refreshingY: CGFloat = NavigationBarHeightUtil.getCurrentNavigationBarHeight() + 10
     private lazy var refreshEndY: CGFloat = NavigationBarHeightUtil.getCurrentNavigationBarHeight() + 60
     
     // 初始化方法
